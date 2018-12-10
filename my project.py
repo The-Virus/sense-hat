@@ -1,4 +1,13 @@
-Python 3.5.3 (default, Sep 27 2018, 17:25:39) 
-[GCC 6.3.0 20170516] on linux
-Type "copyright", "credits" or "license()" for more information.
->>> 
+
+from sense_hat import SenseHat
+from random import randint
+from time import sleep
+sense = SenseHat()
+while True:
+    x = randint(0,7)
+    y = randint(0,7)
+    r = randint(0,225)
+    g = randint(0,225)
+    b = randint(0,225)
+    sense.set_pixel(x, y, r, g, b)
+
