@@ -26,5 +26,30 @@ while True:
         e=7
         first_quadrant()
     sense.clear()
+    for i in range(2560):
+        d=1
+        e=6
+        first_quadrant()
+    sense.clear()
+    for i in range(2560):
+        d=2
+        e=5
+        first_quadrant()
+    sense.clear()
+    for i in range(2560):
+        d=3
+        e=4
+        first_quadrant()
+    sense.clear()
+    for i in range(2560):
+        d=2
+        e=5
+        first_quadrant()
+    sense.clear()
+    for i in range(2560):
+        d=1
+        e=6
+        first_quadrant()
+    sense.clear()
     
-
+    
